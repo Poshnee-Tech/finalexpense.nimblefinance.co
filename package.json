@@ -1,0 +1,13 @@
+{
+  "name": "final-expense-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nimble Finance - Final Expense Insurance landing page (static frontend + Google Sheets form handler + geo gate on Vercel)",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/edge": "^1.1.1",
+    "googleapis": ">=140.0.0"
+  }
+}

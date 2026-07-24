@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# vercel
+.vercel/
+
+# local env / secrets — NEVER commit the service-account key
+.env
+.env.*
+!.env.example
+
+# service-account key files (keep these out of git)
+final.json
+fstaric.json
+*serviceaccount*.json
+*service-account*.json
+*credentials*.json
